@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="main-container">
+    <div class="form-container">
+        <h1>Student Registration form</h1>
+        <form>
+            Roll No: <input class="input-set input-clr" type="text" required placeholder="Your roll no here" size="40"><br><br>
+
+            Student Name : <input class="input-set input-clr" type="text" placeholder="First Name" size="30" required>  <span>-</span> <input class="input-set input-clr" type="text" placeholder="Last Name" required size="30"><br><br>
+
+            Father Name : <input class="input-set input-clr" type="text" required size="40" placeholder="Enter your father name"><br><br>
+
+            Date Of Birth : <input class="input-set input-clr" type="date" required placeholder="Your date of birth here" size="35"><br><br>
+
+            Phone NO :<div class="input-tel">
+                <span class="pakistan">PAK +92</span>
+                <input class="input-val input-set input-clr" type="number" placeholder="Enter your phone number" maxlength="11" required>
+            </div><br>
+            Email ID : <input class="input-set input-clr" type="email" required size="40" maxlength="40" placeholder="John@example.email"><br><br>
+
+            Password : <input class="input-set input-clr" type="password" required size="40" maxlength="12" placeholder="Enter a strong password (<= 12 digits)"><br><br>
+
+            Gender : <input type="radio" name="gender" value="male" id="male" required>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="Female" id="female">
+            <label for="female">Female</label> <br><br>
+
+            Department : <input type="checkbox" required>CS <input type="checkbox" required>SE <input type="checkbox" required>IT <input type="checkbox" required>Math <input type="checkbox" required>Civil <input type="checkbox" required>ML <input type="checkbox" required>Gen AI <br><br>
+
+            <label for="Courses">Course :</label>
+            <select class="input-set input-clr">
+
+                <option value="Software Engineering">Software Engineering</option>
+                <option value="Machine Learning">Machine Learning</option>
+                <option value="Generative AI">Generative AI</option>
+                <option value="Information Technology">Information Technology</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Civil Engineering">Civil Engineering</option>
+
+            </select><br><br>
+            Student Photo : <input type="file" required><br><br>
+            <label for="City">City :</label>
+            <select class="input-set input-clr">
+
+                <option value="Quetta">Quetta</option>
+                <option value="Karachi">Karachi</option>
+                <option value="Islamabad">Islamabad</option>
+                <option value="Hydrabad">Hydrabad</option>
+                <option value="Lahore">Lahore</option>
+                <option value="Multan">Multan</option>
+                <option value="Peshawer">Peshawer</option>
+                <option value="Muree">Muree</option>
+                <option value="Swat">Swat</option>
+                <option value="Faislabad">Faislabad</option>
+
+            </select><br><br>
+            Address : <br><textarea class="input-set input-clr" placeholder="Write your home address here......." rows="7" cols="50"></textarea><br>
+            <div class="reg-btn-main">
+            <button class="input-set input-clr reg-btn">Register</button>
+            </div>
+        </form>
+    </div>
+    </section>
+
+</body>
+</html>

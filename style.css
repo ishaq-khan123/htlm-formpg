@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.form-container{
+    border: 1px solid #e7e3e3;
+    border-radius: 40px;
+    width: 50%;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+.form-container:hover{
+    box-shadow: 0 8px 30px rgba(100, 0, 180, 0.9);
+}
+.form-container>h1{
+    font-size: 1.6rem;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+.input-set{
+    padding: 9px;
+    border-radius: 6px;
+    outline: none;
+}
+.input-set:focus{
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba (37 , 199 , 235 , 0.5);
+}
+.input-clr{
+    border-color: #ccc;
+}
+.input-tel{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px;
+    width: 250px;
+}
+.pakistan{
+    margin-left: 8px;
+    font-size: 1.4rem;
+}
+.input-val{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.reg-btn-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg-btn{
+    padding: 15px 100px;
+    border: none;
+    border-radius: 9px;
+    background-color: #30332b;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.reg-btn:hover{
+    background-color: #359ce0;
+}
